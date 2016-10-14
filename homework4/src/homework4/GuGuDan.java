@@ -18,7 +18,7 @@ public class GuGuDan {
 		
 		if(s.hasNextInt())
 			this.dandangu = s.nextInt();
-		else if(s.next().equals("Q"))
+		else if(s.next().equalsIgnoreCase("Q"))
 			return 1;
 		
 		return 0;

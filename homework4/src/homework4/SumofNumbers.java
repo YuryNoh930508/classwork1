@@ -21,7 +21,7 @@ public class SumofNumbers {
 		
 		if(s.hasNextInt())
 			this.sum = s.nextInt();
-		else if(s.next().equals("Q"))
+		else if(s.next().equalsIgnoreCase("Q"))
 			return 1; //in case of exit
 		
 		return 0;	  //in case of loop

@@ -24,9 +24,9 @@ public class GuGuDan2 {
 	}
 	void print() {
 		int startIndex = 0;
-		if(oddOrEven.equals("E"))
+		if(oddOrEven.equalsIgnoreCase("E"))
 			startIndex = 2;
-		else if(oddOrEven.equals("O"))
+		else if(oddOrEven.equalsIgnoreCase("O"))
 			startIndex = 3;
 		for(int i=1;i<10;i++) {
 			for(int j=startIndex;j<10;j+=2)

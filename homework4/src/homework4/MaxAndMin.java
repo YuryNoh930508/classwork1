@@ -32,7 +32,7 @@ public class MaxAndMin {
 					this.minNum = this.compNum;
 			}
 		}
-		else if(s.next().equals("Q"))	//if in need of exit
+		else if(s.next().equalsIgnoreCase("Q"))	//if in need of exit
 			return 1;
 		
 		return 0;	//if in need of loop

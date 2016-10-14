@@ -20,7 +20,7 @@ public class SumAndAvg {
 			this.sum += s.nextInt();
 			this.sumCnt += 1;
 		}
-		else if(s.next().equals("Q"))
+		else if(s.next().equalsIgnoreCase("Q"))
 			return 1;
 		
 		return 0;
